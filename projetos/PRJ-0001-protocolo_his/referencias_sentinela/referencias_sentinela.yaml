@@ -1,0 +1,126 @@
+﻿id_projeto: PRJ-0001
+id_versao_vocabulario: VOC-0001-0001
+numero_versao: "0.1"
+situacao_versao: rascunho_operacional
+
+referencias:
+  - id_referencia: REF-0001-001
+    titulo: >
+      Impacts of planning rules, regulations, uncertainty and
+      delay on residential property development
+    autores:
+      - Arthur Grimes
+      - Ian Mitchell
+    ano: 2015
+    doi: 10.29310/wp.2015.02
+    prioridade: a
+    estado_acesso_aberto: a_verificar
+    situacao: ativa
+    justificativa: >
+      Referência central para custo regulatório, demora,
+      incerteza, abandono de projetos e perda de capacidade.
+    eixos:
+      - EIX-0001-001
+      - EIX-0001-005
+      - EIX-0001-011
+
+  - id_referencia: REF-0001-002
+    titulo: >
+      How do developers respond to land use regulations?
+      An analysis of new housing in Los Angeles
+    autores:
+      - C. J. Gabbe
+    ano: 2018
+    doi: 10.1080/10511482.2017.1368031
+    prioridade: a
+    estado_acesso_aberto: a_verificar
+    situacao: ativa
+    justificativa: >
+      Referência central para resposta dos incorporadores
+      a limites de densidade e exigências de estacionamento.
+    eixos:
+      - EIX-0001-002
+      - EIX-0001-003
+      - EIX-0001-005
+
+  - id_referencia: REF-0001-003
+    titulo: >
+      Zoning and affordability: a reply to Rodríguez-Pose
+      and Storper
+    autores:
+      - Michael Manville
+      - Michael Lens
+      - Paavo Monkkonen
+    ano: 2022
+    doi: 10.1177/0042098020910330
+    prioridade: a
+    estado_acesso_aberto: a_verificar
+    situacao: ativa
+    justificativa: >
+      Síntese crítica do debate sobre zoneamento,
+      densidade, produção e acessibilidade habitacional.
+    eixos:
+      - EIX-0001-001
+      - EIX-0001-002
+      - EIX-0001-010
+      - EIX-0001-015
+
+  - id_referencia: REF-0001-004
+    titulo: >
+      Housing prices and land use regulations:
+      a study of 250 major US cities
+    autores:
+      - Theo S. Eicher
+    ano: 2024
+    doi: 10.58567/jea03010002
+    prioridade: a
+    estado_acesso_aberto: a_verificar
+    situacao: ativa
+    justificativa: >
+      Evidência comparativa sobre preços, atrasos de aprovação
+      e diferentes níveis da regulação territorial.
+    eixos:
+      - EIX-0001-001
+      - EIX-0001-002
+      - EIX-0001-005
+
+  - id_referencia: REF-0001-005
+    titulo: >
+      Metodologias de avaliação e análise de impacto:
+      abordagens e aplicações no âmbito da regulação urbana
+    autores:
+      - Luiz Felipe Monteiro Seixas
+      - Nilo Luiz Saccaro Junior
+    ano: 2022
+    doi: 10.38116/td2771
+    prioridade: a
+    estado_acesso_aberto: a_verificar
+    situacao: ativa
+    justificativa: >
+      Referência nacional para avaliação ex ante e ex post
+      de intervenções regulatórias urbanas.
+    eixos:
+      - EIX-0001-011
+      - EIX-0001-013
+      - EIX-0001-015
+
+  - id_referencia: REF-0001-006
+    titulo: >
+      Government regulation sub-factors and housing supply:
+      a conceptual framework
+    autores:
+      - Noryanto Asroun Mohamad Asroun
+      - Mohd Hasrol Haffiz Aliasak
+      - Mohd Afandi Abu Bakar
+    ano: 2021
+    doi: 10.30880/jtmb.2021.08.02.009
+    prioridade: b
+    estado_acesso_aberto: a_verificar
+    situacao: ativa
+    justificativa: >
+      Decompõe regulação governamental em componentes
+      potencialmente mensuráveis na análise da oferta.
+    eixos:
+      - EIX-0001-001
+      - EIX-0001-005
+      - EIX-0001-013

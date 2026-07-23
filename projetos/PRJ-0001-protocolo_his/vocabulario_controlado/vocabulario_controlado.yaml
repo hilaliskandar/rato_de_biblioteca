@@ -1,0 +1,378 @@
+﻿id_projeto: PRJ-0001
+id_versao_vocabulario: VOC-0001-0001
+numero_versao: "0.1"
+situacao_versao: rascunho_operacional
+
+termos:
+  - id_termo: TER-0001-0001
+    idioma: pt
+    termo: regulação urbanística
+    tipo_termo: descritor
+    situacao: ativo
+    eixos:
+      - EIX-0001-001
+      - EIX-0001-002
+      - EIX-0001-013
+
+  - id_termo: TER-0001-0002
+    idioma: en
+    termo: land use regulation
+    tipo_termo: descritor
+    situacao: ativo
+    eixos:
+      - EIX-0001-001
+      - EIX-0001-002
+      - EIX-0001-013
+
+  - id_termo: TER-0001-0003
+    idioma: es
+    termo: regulación del uso del suelo
+    tipo_termo: descritor
+    situacao: ativo
+    eixos:
+      - EIX-0001-001
+      - EIX-0001-002
+      - EIX-0001-013
+
+  - id_termo: TER-0001-0004
+    idioma: pt
+    termo: oferta habitacional
+    tipo_termo: descritor
+    situacao: ativo
+    eixos:
+      - EIX-0001-001
+
+  - id_termo: TER-0001-0005
+    idioma: en
+    termo: housing supply
+    tipo_termo: descritor
+    situacao: ativo
+    eixos:
+      - EIX-0001-001
+
+  - id_termo: TER-0001-0006
+    idioma: es
+    termo: oferta de vivienda
+    tipo_termo: descritor
+    situacao: ativo
+    eixos:
+      - EIX-0001-001
+
+  - id_termo: TER-0001-0007
+    idioma: pt
+    termo: habitação de interesse social
+    tipo_termo: descritor
+    situacao: ativo
+    eixos:
+      - EIX-0001-007
+      - EIX-0001-009
+      - EIX-0001-010
+
+  - id_termo: TER-0001-0008
+    idioma: en
+    termo: social housing
+    tipo_termo: descritor
+    situacao: ativo
+    eixos:
+      - EIX-0001-007
+      - EIX-0001-009
+      - EIX-0001-010
+
+  - id_termo: TER-0001-0009
+    idioma: en
+    termo: affordable housing
+    tipo_termo: sinonimo
+    situacao: ativo
+    observacao: >
+      Termo mais amplo que social housing; deve ser testado
+      separadamente para evitar expansão excessiva do corpus.
+    eixos:
+      - EIX-0001-007
+      - EIX-0001-009
+      - EIX-0001-010
+
+  - id_termo: TER-0001-0010
+    idioma: es
+    termo: vivienda de interés social
+    tipo_termo: descritor
+    situacao: ativo
+    eixos:
+      - EIX-0001-007
+      - EIX-0001-009
+      - EIX-0001-010
+
+  - id_termo: TER-0001-0011
+    idioma: pt
+    termo: zoneamento
+    tipo_termo: descritor
+    situacao: ativo
+    eixos:
+      - EIX-0001-002
+      - EIX-0001-007
+
+  - id_termo: TER-0001-0012
+    idioma: en
+    termo: zoning
+    tipo_termo: descritor
+    situacao: ativo
+    eixos:
+      - EIX-0001-002
+      - EIX-0001-007
+
+  - id_termo: TER-0001-0013
+    idioma: es
+    termo: zonificación
+    tipo_termo: descritor
+    situacao: ativo
+    eixos:
+      - EIX-0001-002
+      - EIX-0001-007
+
+  - id_termo: TER-0001-0014
+    idioma: pt
+    termo: densidade residencial
+    tipo_termo: descritor
+    situacao: ativo
+    eixos:
+      - EIX-0001-002
+      - EIX-0001-003
+
+  - id_termo: TER-0001-0015
+    idioma: en
+    termo: residential density
+    tipo_termo: descritor
+    situacao: ativo
+    eixos:
+      - EIX-0001-002
+      - EIX-0001-003
+
+  - id_termo: TER-0001-0016
+    idioma: es
+    termo: densidad residencial
+    tipo_termo: descritor
+    situacao: ativo
+    eixos:
+      - EIX-0001-002
+      - EIX-0001-003
+
+  - id_termo: TER-0001-0017
+    idioma: pt
+    termo: lote mínimo
+    tipo_termo: descritor
+    situacao: ativo
+    eixos:
+      - EIX-0001-003
+      - EIX-0001-006
+
+  - id_termo: TER-0001-0018
+    idioma: en
+    termo: minimum lot size
+    tipo_termo: descritor
+    situacao: ativo
+    eixos:
+      - EIX-0001-003
+      - EIX-0001-006
+
+  - id_termo: TER-0001-0019
+    idioma: es
+    termo: tamaño mínimo de lote
+    tipo_termo: descritor
+    situacao: ativo
+    eixos:
+      - EIX-0001-003
+      - EIX-0001-006
+
+  - id_termo: TER-0001-0020
+    idioma: pt
+    termo: exigência de estacionamento
+    tipo_termo: descritor
+    situacao: ativo
+    eixos:
+      - EIX-0001-003
+      - EIX-0001-004
+
+  - id_termo: TER-0001-0021
+    idioma: en
+    termo: parking requirement
+    tipo_termo: descritor
+    situacao: ativo
+    eixos:
+      - EIX-0001-003
+      - EIX-0001-004
+
+  - id_termo: TER-0001-0022
+    idioma: es
+    termo: requisito de estacionamiento
+    tipo_termo: descritor
+    situacao: ativo
+    eixos:
+      - EIX-0001-003
+      - EIX-0001-004
+
+  - id_termo: TER-0001-0023
+    idioma: pt
+    termo: código de obras
+    tipo_termo: descritor
+    situacao: ativo
+    eixos:
+      - EIX-0001-004
+
+  - id_termo: TER-0001-0024
+    idioma: en
+    termo: building code
+    tipo_termo: descritor
+    situacao: ativo
+    eixos:
+      - EIX-0001-004
+
+  - id_termo: TER-0001-0025
+    idioma: es
+    termo: código de edificación
+    tipo_termo: descritor
+    situacao: ativo
+    eixos:
+      - EIX-0001-004
+
+  - id_termo: TER-0001-0026
+    idioma: pt
+    termo: licenciamento urbanístico
+    tipo_termo: descritor
+    situacao: ativo
+    eixos:
+      - EIX-0001-005
+      - EIX-0001-011
+
+  - id_termo: TER-0001-0027
+    idioma: en
+    termo: development approval
+    tipo_termo: descritor
+    situacao: ativo
+    eixos:
+      - EIX-0001-005
+      - EIX-0001-011
+
+  - id_termo: TER-0001-0028
+    idioma: en
+    termo: permitting delay
+    tipo_termo: expressao
+    situacao: ativo
+    eixos:
+      - EIX-0001-005
+      - EIX-0001-011
+
+  - id_termo: TER-0001-0029
+    idioma: es
+    termo: licencia urbanística
+    tipo_termo: descritor
+    situacao: ativo
+    eixos:
+      - EIX-0001-005
+      - EIX-0001-011
+
+  - id_termo: TER-0001-0030
+    idioma: pt
+    termo: atraso no licenciamento
+    tipo_termo: expressao
+    situacao: ativo
+    eixos:
+      - EIX-0001-005
+      - EIX-0001-011
+
+  - id_termo: TER-0001-0031
+    idioma: pt
+    termo: zoneamento inclusivo
+    tipo_termo: descritor
+    situacao: ativo
+    eixos:
+      - EIX-0001-007
+
+  - id_termo: TER-0001-0032
+    idioma: en
+    termo: inclusionary zoning
+    tipo_termo: descritor
+    situacao: ativo
+    eixos:
+      - EIX-0001-007
+
+  - id_termo: TER-0001-0033
+    idioma: es
+    termo: zonificación inclusiva
+    tipo_termo: descritor
+    situacao: ativo
+    eixos:
+      - EIX-0001-007
+
+  - id_termo: TER-0001-0034
+    idioma: pt
+    termo: assentamento informal
+    tipo_termo: descritor
+    situacao: ativo
+    eixos:
+      - EIX-0001-008
+
+  - id_termo: TER-0001-0035
+    idioma: en
+    termo: informal settlement
+    tipo_termo: descritor
+    situacao: ativo
+    eixos:
+      - EIX-0001-008
+
+  - id_termo: TER-0001-0036
+    idioma: es
+    termo: asentamiento informal
+    tipo_termo: descritor
+    situacao: ativo
+    eixos:
+      - EIX-0001-008
+
+  - id_termo: TER-0001-0037
+    idioma: pt
+    termo: custo moradia transporte
+    tipo_termo: expressao
+    situacao: ativo
+    eixos:
+      - EIX-0001-009
+
+  - id_termo: TER-0001-0038
+    idioma: en
+    termo: housing and transportation cost
+    tipo_termo: expressao
+    situacao: ativo
+    eixos:
+      - EIX-0001-009
+
+  - id_termo: TER-0001-0039
+    idioma: es
+    termo: costo de vivienda y transporte
+    tipo_termo: expressao
+    situacao: ativo
+    eixos:
+      - EIX-0001-009
+
+  - id_termo: TER-0001-0040
+    idioma: pt
+    termo: captura da valorização fundiária
+    tipo_termo: descritor
+    situacao: ativo
+    eixos:
+      - EIX-0001-007
+      - EIX-0001-013
+
+  - id_termo: TER-0001-0041
+    idioma: en
+    termo: land value capture
+    tipo_termo: descritor
+    situacao: ativo
+    eixos:
+      - EIX-0001-007
+      - EIX-0001-013
+
+  - id_termo: TER-0001-0042
+    idioma: es
+    termo: captura de plusvalías
+    tipo_termo: descritor
+    situacao: ativo
+    eixos:
+      - EIX-0001-007
+      - EIX-0001-013
