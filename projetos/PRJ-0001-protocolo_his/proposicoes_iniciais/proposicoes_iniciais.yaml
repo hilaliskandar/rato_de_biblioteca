@@ -1,0 +1,65 @@
+﻿id_projeto: PRJ-0001
+id_versao_estrutura: EST-0001-0001
+numero_versao: "0.1"
+situacao_versao: rascunho_operacional
+
+proposicoes:
+  - id_proposicao: PRO-0001-001
+    situacao: t0
+    texto: >
+      Diretrizes favoráveis à habitação de interesse social perdem
+      densidade nas camadas de implementação.
+
+  - id_proposicao: PRO-0001-002
+    situacao: t0
+    texto: >
+      A presença parcial ou condicionada de instrumentos é mais
+      frequente que sua ausência absoluta.
+
+  - id_proposicao: PRO-0001-003
+    situacao: t0
+    texto: >
+      A base técnico-edilícia e procedimental constitui núcleo
+      relevante de bloqueio à produção habitacional.
+
+  - id_proposicao: PRO-0001-004
+    situacao: t0
+    texto: >
+      A fragmentação e a baixa inteligibilidade normativa elevam
+      a incerteza para os agentes públicos e privados.
+
+  - id_proposicao: PRO-0001-005
+    situacao: t0
+    texto: >
+      A precariedade documental interfere na governabilidade
+      regulatória.
+
+  - id_proposicao: PRO-0001-006
+    situacao: t0
+    texto: >
+      A territorialização insuficiente reduz a efetividade da
+      política habitacional.
+
+  - id_proposicao: PRO-0001-007
+    situacao: t0
+    texto: >
+      Regras formalmente neutras podem produzir efeitos
+      distributivos regressivos.
+
+  - id_proposicao: PRO-0001-008
+    situacao: t0
+    texto: >
+      A avaliação deve considerar a incidência combinada das normas,
+      e não apenas dispositivos isolados.
+
+  - id_proposicao: PRO-0001-009
+    situacao: t0
+    texto: >
+      A receptividade normativa pode ser observada por meio de uma
+      matriz comparativa estruturada.
+
+  - id_proposicao: PRO-0001-010
+    situacao: t0
+    texto: >
+      A classificação exige rastreabilidade até a unidade canônica
+      do artigo legal.

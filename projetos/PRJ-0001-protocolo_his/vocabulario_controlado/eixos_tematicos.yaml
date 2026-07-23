@@ -1,0 +1,65 @@
+﻿id_projeto: PRJ-0001
+id_versao_estrutura: EST-0001-0001
+numero_versao: "0.1"
+situacao_versao: rascunho_operacional
+
+eixos:
+  - id_eixo: EIX-0001-001
+    titulo: Regulação, oferta habitacional e elasticidade
+    situacao: ativo
+
+  - id_eixo: EIX-0001-002
+    titulo: Zoneamento, densidade e capacidade construtiva
+    situacao: ativo
+
+  - id_eixo: EIX-0001-003
+    titulo: Tipologias, lotes mínimos e estacionamento
+    situacao: ativo
+
+  - id_eixo: EIX-0001-004
+    titulo: Códigos edilícios, desempenho e proporcionalidade
+    situacao: ativo
+
+  - id_eixo: EIX-0001-005
+    titulo: Licenciamento, demora, incerteza e discricionariedade
+    situacao: ativo
+
+  - id_eixo: EIX-0001-006
+    titulo: Parcelamento, infraestrutura, expansão e forma urbana
+    situacao: ativo
+
+  - id_eixo: EIX-0001-007
+    titulo: ZEIS, zoneamento inclusivo, incentivos e contrapartidas
+    situacao: ativo
+
+  - id_eixo: EIX-0001-008
+    titulo: Informalidade, regularização e produção progressiva
+    situacao: ativo
+
+  - id_eixo: EIX-0001-009
+    titulo: Localização, transporte, emprego e acesso à moradia
+    situacao: ativo
+
+  - id_eixo: EIX-0001-010
+    titulo: Segregação, desigualdade e efeitos distributivos
+    situacao: ativo
+
+  - id_eixo: EIX-0001-011
+    titulo: Capacidade estatal, coordenação e implementação
+    situacao: ativo
+
+  - id_eixo: EIX-0001-012
+    titulo: Legibilidade normativa, digitalização e infraestrutura documental
+    situacao: ativo
+
+  - id_eixo: EIX-0001-013
+    titulo: Monitoramento, indicadores e avaliação regulatória
+    situacao: ativo
+
+  - id_eixo: EIX-0001-014
+    titulo: Benefícios regulatórios, proteção ambiental e segurança
+    situacao: ativo
+
+  - id_eixo: EIX-0001-015
+    titulo: Efeitos nulos, adversos ou não intencionais das reformas
+    situacao: ativo

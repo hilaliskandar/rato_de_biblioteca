@@ -1,0 +1,63 @@
+﻿id_projeto: PRJ-0001
+id_versao_estrutura: EST-0001-0001
+numero_versao: "0.1"
+situacao_versao: rascunho_operacional
+
+perguntas:
+  - id_pergunta: PER-0001-001
+    tipo: central
+    situacao: ativa
+    texto: >
+      Em que medida, por quais mecanismos e sob quais condições
+      a regulação urbanística, edilícia, fundiária e procedimental
+      condiciona a viabilidade, a localização e o acesso à
+      habitação de interesse social, e como esses mecanismos podem
+      ser avaliados de forma válida, rastreável e reprodutível?
+
+  - id_pergunta: PER-0001-002
+    tipo: secundaria
+    situacao: ativa
+    texto: >
+      Quais regras, instrumentos, parâmetros e procedimentos estão
+      associados a alterações de capacidade construtiva, quantidade
+      de unidades, custo, prazo, risco, localização, diversidade
+      tipológica e acesso à moradia?
+
+  - id_pergunta: PER-0001-003
+    tipo: secundaria
+    situacao: ativa
+    texto: >
+      Como a implementação administrativa, a discricionariedade,
+      a coordenação institucional, a litigiosidade e a qualidade
+      documental modificam os efeitos das normas escritas?
+
+  - id_pergunta: PER-0001-004
+    tipo: secundaria
+    situacao: ativa
+    texto: >
+      Como os efeitos regulatórios variam conforme o porte municipal,
+      a pressão da demanda, a estrutura fundiária, a capacidade
+      administrativa, a infraestrutura, a renda e a localização?
+
+  - id_pergunta: PER-0001-005
+    tipo: secundaria
+    situacao: ativa
+    texto: >
+      Quais finalidades públicas são protegidas pelas regulações
+      examinadas e quais riscos podem decorrer de sua flexibilização?
+
+  - id_pergunta: PER-0001-006
+    tipo: secundaria
+    situacao: ativa
+    texto: >
+      Quais indicadores, índices, modelos, estudos de caso, métodos
+      espaciais e desenhos causais são utilizados para avaliar
+      impacto regulatório sobre a produção e o acesso à moradia?
+
+  - id_pergunta: PER-0001-007
+    tipo: secundaria
+    situacao: ativa
+    texto: >
+      Em que medida as variáveis do Protocolo HIS representam os
+      mecanismos identificados, apresentam sobreposição, necessitam
+      de subdivisão ou omitem dimensões relevantes?
