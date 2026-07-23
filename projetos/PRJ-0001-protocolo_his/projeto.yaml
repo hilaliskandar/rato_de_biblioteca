@@ -1,0 +1,41 @@
+﻿id_projeto: PRJ-0001
+nome_curto: protocolo_his
+titulo: Regulação urbanística e produção de habitação de interesse social
+descricao: >
+  Projeto-piloto para validação da plataforma Rato de Biblioteca,
+  destinado ao aprofundamento da base bibliográfica e metodológica
+  do Protocolo HIS.
+
+situacao: piloto
+
+tipos_revisao:
+  - mapa_sistematico_evidencias
+  - revisao_orientada_mecanismos
+
+fontes_descoberta:
+  - openalex
+
+politica_acesso:
+  somente_acesso_aberto: true
+  texto_integral_obrigatorio: true
+  acesso_institucional_aceito: false
+  copia_privada_aceita: false
+  verificar_localizacao_aberta: true
+
+padroes_relato:
+  protocolo: PRISMA-P-2015
+  busca: PRISMA-S
+  relatorio_final: PRISMA-2020
+
+idiomas_busca:
+  - pt
+  - en
+  - es
+
+controle_humano:
+  decisao_final_automatizada: false
+  justificativa_exclusao_obrigatoria: true
+  conflitos_exigem_decisao_humana: true
+  auditoria_amostral_exclusoes: true
+
+projeto_piloto: true

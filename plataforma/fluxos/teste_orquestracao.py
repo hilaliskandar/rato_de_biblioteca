@@ -114,7 +114,7 @@ def gerar_manifesto(
         "tipo_registro":
             "manifesto_teste_orquestracao",
         "situacao": "concluido",
-        "arquivo_produzido": str(arquivo),
+        "arquivo_relativo": arquivo.relative_to(RAIZ_PROJETO).as_posix(),
         "tamanho_bytes": arquivo.stat().st_size,
         "algoritmo_hash": "sha256",
         "hash_sha256": hash_sha256,
