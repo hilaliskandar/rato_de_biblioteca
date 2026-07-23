@@ -1,0 +1,65 @@
+﻿# Ambientes virtuais
+.venv/
+.venv_llm/
+__pycache__/
+*.pyc
+
+# Segredos e configuracoes privadas
+.env
+.env.*
+!.env.exemplo
+credenciais/
+
+# Dados locais
+armazenamento/
+diagnostico_ambiente/
+auditoria/*.jsonl
+auditoria/*.parquet
+
+# Bancos locais
+*.db
+*.sqlite
+*.sqlite3
+*.duckdb
+*.duckdb.wal
+
+# Prefect
+.prefect/
+
+# DVC
+.dvc/cache/
+*.dvc.tmp
+
+# Textos integrais e dados brutos
+projetos/*/textos_integrais/
+projetos/*/dados_brutos/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Temporarios
+cache/
+logs/
+temporarios/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Bancos locais e arquivos temporarios do DuckDB
+*.duckdb
+*.duckdb.wal
+*.db
+*.sqlite
+*.sqlite3
+
+# Dados produzidos localmente
+armazenamento/
+auditoria/*.jsonl
+auditoria/*.parquet
+diagnostico_ambiente/
