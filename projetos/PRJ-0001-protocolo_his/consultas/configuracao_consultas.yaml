@@ -1,0 +1,87 @@
+﻿id_projeto: PRJ-0001
+id_versao_vocabulario: VOC-0001-0001
+id_versao_consultas: VCQ-0001-0001
+numero_versao: "0.1"
+situacao_versao: rascunho_operacional
+
+politica:
+  parametro_busca: search
+  ordenacao: relevancia_padrao
+  limite_ensaio: 25
+
+  somente_acesso_aberto: true
+  texto_integral_aberto_obrigatorio: true
+
+  filtros_openalex:
+    - open_access.is_oa:true
+    - open_access.any_repository_has_fulltext:true
+
+  campos_retorno:
+    - id
+    - doi
+    - display_name
+    - publication_year
+    - publication_date
+    - type
+    - language
+    - cited_by_count
+    - relevance_score
+    - open_access
+    - best_oa_location
+    - primary_location
+    - authorships
+    - primary_topic
+    - topics
+    - keywords
+
+idiomas:
+  - pt
+  - en
+  - es
+
+eixos_iniciais:
+  - EIX-0001-001
+  - EIX-0001-002
+  - EIX-0001-003
+  - EIX-0001-004
+  - EIX-0001-005
+  - EIX-0001-006
+  - EIX-0001-007
+  - EIX-0001-008
+  - EIX-0001-009
+  - EIX-0001-013
+
+termos_contexto_habitacional:
+  pt:
+    - TER-0001-0004
+    - TER-0001-0007
+
+  en:
+    - TER-0001-0005
+    - TER-0001-0008
+    - TER-0001-0009
+
+  es:
+    - TER-0001-0006
+    - TER-0001-0010
+
+sentinelas_esperadas_por_idioma:
+  pt:
+    - REF-0001-005
+
+  en:
+    - REF-0001-001
+    - REF-0001-002
+    - REF-0001-003
+    - REF-0001-004
+    - REF-0001-006
+
+  es: []
+
+regras_geracao:
+  operador_entre_grupos: AND
+  operador_dentro_grupo: OR
+  citar_expressoes_multivocabulares: true
+  remover_termos_duplicados: true
+  exigir_termo_do_eixo: true
+  exigir_termo_habitacional: true

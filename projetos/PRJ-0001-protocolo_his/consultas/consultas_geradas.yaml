@@ -1,0 +1,610 @@
+id_projeto: PRJ-0001
+id_versao_vocabulario: VOC-0001-0001
+id_versao_consultas: VCQ-0001-0001
+numero_versao: '0.1'
+situacao_versao: rascunho_operacional
+politica:
+  parametro_busca: search
+  ordenacao: relevancia_padrao
+  limite_ensaio: 25
+  somente_acesso_aberto: true
+  texto_integral_aberto_obrigatorio: true
+  filtros_openalex:
+  - open_access.is_oa:true
+  - open_access.any_repository_has_fulltext:true
+  campos_retorno:
+  - id
+  - doi
+  - display_name
+  - publication_year
+  - publication_date
+  - type
+  - language
+  - cited_by_count
+  - relevance_score
+  - open_access
+  - best_oa_location
+  - primary_location
+  - authorships
+  - primary_topic
+  - topics
+  - keywords
+familias:
+- id_familia: FAM-0001-001
+  id_eixo: EIX-0001-001
+  titulo: Regulação, oferta habitacional e elasticidade
+  objetivo: Recuperar estudos relacionados ao eixo tematico e aos resultados habitacionais.
+  situacao: rascunho
+- id_familia: FAM-0001-002
+  id_eixo: EIX-0001-002
+  titulo: Zoneamento, densidade e capacidade construtiva
+  objetivo: Recuperar estudos relacionados ao eixo tematico e aos resultados habitacionais.
+  situacao: rascunho
+- id_familia: FAM-0001-003
+  id_eixo: EIX-0001-003
+  titulo: Tipologias, lotes mínimos e estacionamento
+  objetivo: Recuperar estudos relacionados ao eixo tematico e aos resultados habitacionais.
+  situacao: rascunho
+- id_familia: FAM-0001-004
+  id_eixo: EIX-0001-004
+  titulo: Códigos edilícios, desempenho e proporcionalidade
+  objetivo: Recuperar estudos relacionados ao eixo tematico e aos resultados habitacionais.
+  situacao: rascunho
+- id_familia: FAM-0001-005
+  id_eixo: EIX-0001-005
+  titulo: Licenciamento, demora, incerteza e discricionariedade
+  objetivo: Recuperar estudos relacionados ao eixo tematico e aos resultados habitacionais.
+  situacao: rascunho
+- id_familia: FAM-0001-006
+  id_eixo: EIX-0001-006
+  titulo: Parcelamento, infraestrutura, expansão e forma urbana
+  objetivo: Recuperar estudos relacionados ao eixo tematico e aos resultados habitacionais.
+  situacao: rascunho
+- id_familia: FAM-0001-007
+  id_eixo: EIX-0001-007
+  titulo: ZEIS, zoneamento inclusivo, incentivos e contrapartidas
+  objetivo: Recuperar estudos relacionados ao eixo tematico e aos resultados habitacionais.
+  situacao: rascunho
+- id_familia: FAM-0001-008
+  id_eixo: EIX-0001-008
+  titulo: Informalidade, regularização e produção progressiva
+  objetivo: Recuperar estudos relacionados ao eixo tematico e aos resultados habitacionais.
+  situacao: rascunho
+- id_familia: FAM-0001-009
+  id_eixo: EIX-0001-009
+  titulo: Localização, transporte, emprego e acesso à moradia
+  objetivo: Recuperar estudos relacionados ao eixo tematico e aos resultados habitacionais.
+  situacao: rascunho
+- id_familia: FAM-0001-010
+  id_eixo: EIX-0001-013
+  titulo: Monitoramento, indicadores e avaliação regulatória
+  objetivo: Recuperar estudos relacionados ao eixo tematico e aos resultados habitacionais.
+  situacao: rascunho
+consultas:
+- id_consulta: CON-0001-001-PT
+  id_eixo: EIX-0001-001
+  idioma: pt
+  parametro_busca: search
+  texto_consulta: '"regulação urbanística" AND ("habitação de interesse social" OR "oferta habitacional")'
+  filtro_openalex: open_access.is_oa:true,open_access.any_repository_has_fulltext:true
+  limite_ensaio: 25
+  id_familia: FAM-0001-001
+  modalidade: busca_textual_controlada
+  ordenacao: relevancia_padrao
+  situacao: rascunho
+  hash_consulta: e3214572d2f5c649794beed86e44f1b7b4ace51ea937991ef7ada9001d121bb5
+  termos_eixo:
+  - TER-0001-0001
+  termos_contexto: &id001
+  - TER-0001-0004
+  - TER-0001-0007
+  sentinelas_esperadas: []
+- id_consulta: CON-0001-002-EN
+  id_eixo: EIX-0001-001
+  idioma: en
+  parametro_busca: search
+  texto_consulta: '"land use regulation" AND ("affordable housing" OR "housing supply" OR "social housing")'
+  filtro_openalex: open_access.is_oa:true,open_access.any_repository_has_fulltext:true
+  limite_ensaio: 25
+  id_familia: FAM-0001-001
+  modalidade: busca_textual_controlada
+  ordenacao: relevancia_padrao
+  situacao: rascunho
+  hash_consulta: 3b28de36ccedc4aaad5781d69e5bc6f23348b5b74e33db46a23e9d24e1a146fc
+  termos_eixo:
+  - TER-0001-0002
+  termos_contexto: &id002
+  - TER-0001-0005
+  - TER-0001-0008
+  - TER-0001-0009
+  sentinelas_esperadas:
+  - REF-0001-001
+  - REF-0001-003
+  - REF-0001-004
+  - REF-0001-006
+- id_consulta: CON-0001-003-ES
+  id_eixo: EIX-0001-001
+  idioma: es
+  parametro_busca: search
+  texto_consulta: '"regulación del uso del suelo" AND ("oferta de vivienda" OR "vivienda de interés social")'
+  filtro_openalex: open_access.is_oa:true,open_access.any_repository_has_fulltext:true
+  limite_ensaio: 25
+  id_familia: FAM-0001-001
+  modalidade: busca_textual_controlada
+  ordenacao: relevancia_padrao
+  situacao: rascunho
+  hash_consulta: 657d9a318715dc72fed22663452f81588d0bdd6824600cdc6f05a6128b9c9fb7
+  termos_eixo:
+  - TER-0001-0003
+  termos_contexto: &id003
+  - TER-0001-0006
+  - TER-0001-0010
+  sentinelas_esperadas: []
+- id_consulta: CON-0001-004-PT
+  id_eixo: EIX-0001-002
+  idioma: pt
+  parametro_busca: search
+  texto_consulta: ("densidade residencial" OR "regulação urbanística" OR zoneamento) AND ("habitação de interesse social" OR "oferta habitacional")
+  filtro_openalex: open_access.is_oa:true,open_access.any_repository_has_fulltext:true
+  limite_ensaio: 25
+  id_familia: FAM-0001-002
+  modalidade: busca_textual_controlada
+  ordenacao: relevancia_padrao
+  situacao: rascunho
+  hash_consulta: dcdf14546036946bff3762d1ff51694c9818c70c68a8f11c12488e73d8480c8a
+  termos_eixo:
+  - TER-0001-0001
+  - TER-0001-0011
+  - TER-0001-0014
+  termos_contexto: *id001
+  sentinelas_esperadas: []
+- id_consulta: CON-0001-005-EN
+  id_eixo: EIX-0001-002
+  idioma: en
+  parametro_busca: search
+  texto_consulta: ("land use regulation" OR "residential density" OR zoning) AND ("affordable housing" OR "housing supply" OR "social housing")
+  filtro_openalex: open_access.is_oa:true,open_access.any_repository_has_fulltext:true
+  limite_ensaio: 25
+  id_familia: FAM-0001-002
+  modalidade: busca_textual_controlada
+  ordenacao: relevancia_padrao
+  situacao: rascunho
+  hash_consulta: 7c7472468d1962a74ae286387cda05aeb67cb21e1d535ed3c603b747d8fddeba
+  termos_eixo:
+  - TER-0001-0002
+  - TER-0001-0012
+  - TER-0001-0015
+  termos_contexto: *id002
+  sentinelas_esperadas:
+  - REF-0001-002
+  - REF-0001-003
+  - REF-0001-004
+- id_consulta: CON-0001-006-ES
+  id_eixo: EIX-0001-002
+  idioma: es
+  parametro_busca: search
+  texto_consulta: ("densidad residencial" OR "regulación del uso del suelo" OR zonificación) AND ("oferta de vivienda" OR "vivienda de interés social")
+  filtro_openalex: open_access.is_oa:true,open_access.any_repository_has_fulltext:true
+  limite_ensaio: 25
+  id_familia: FAM-0001-002
+  modalidade: busca_textual_controlada
+  ordenacao: relevancia_padrao
+  situacao: rascunho
+  hash_consulta: c7e59dea72ae21524fecfe9398f96b67e882990381c25ae24a5c7f6693481d39
+  termos_eixo:
+  - TER-0001-0003
+  - TER-0001-0013
+  - TER-0001-0016
+  termos_contexto: *id003
+  sentinelas_esperadas: []
+- id_consulta: CON-0001-007-PT
+  id_eixo: EIX-0001-003
+  idioma: pt
+  parametro_busca: search
+  texto_consulta: ("densidade residencial" OR "exigência de estacionamento" OR "lote mínimo") AND ("habitação de interesse social" OR "oferta habitacional")
+  filtro_openalex: open_access.is_oa:true,open_access.any_repository_has_fulltext:true
+  limite_ensaio: 25
+  id_familia: FAM-0001-003
+  modalidade: busca_textual_controlada
+  ordenacao: relevancia_padrao
+  situacao: rascunho
+  hash_consulta: d55cc4504c5cd963d3d5412f5be60e1ef04e81f19f5c9ed2b1ebbe16bf06dd20
+  termos_eixo:
+  - TER-0001-0014
+  - TER-0001-0017
+  - TER-0001-0020
+  termos_contexto: *id001
+  sentinelas_esperadas: []
+- id_consulta: CON-0001-008-EN
+  id_eixo: EIX-0001-003
+  idioma: en
+  parametro_busca: search
+  texto_consulta: ("minimum lot size" OR "parking requirement" OR "residential density") AND ("affordable housing" OR "housing supply" OR "social housing")
+  filtro_openalex: open_access.is_oa:true,open_access.any_repository_has_fulltext:true
+  limite_ensaio: 25
+  id_familia: FAM-0001-003
+  modalidade: busca_textual_controlada
+  ordenacao: relevancia_padrao
+  situacao: rascunho
+  hash_consulta: bd32ae70c736a6b0b0c8dcfd50cc28134e9cce22e6f61a30faa86916171b85de
+  termos_eixo:
+  - TER-0001-0015
+  - TER-0001-0018
+  - TER-0001-0021
+  termos_contexto: *id002
+  sentinelas_esperadas:
+  - REF-0001-002
+- id_consulta: CON-0001-009-ES
+  id_eixo: EIX-0001-003
+  idioma: es
+  parametro_busca: search
+  texto_consulta: ("densidad residencial" OR "requisito de estacionamiento" OR "tamaño mínimo de lote") AND ("oferta de vivienda" OR "vivienda de interés social")
+  filtro_openalex: open_access.is_oa:true,open_access.any_repository_has_fulltext:true
+  limite_ensaio: 25
+  id_familia: FAM-0001-003
+  modalidade: busca_textual_controlada
+  ordenacao: relevancia_padrao
+  situacao: rascunho
+  hash_consulta: 46c99006e5ae8fec828d1cdd09a0d27ab9d4d792e2d53a53f9e2d92e1adcd1e8
+  termos_eixo:
+  - TER-0001-0016
+  - TER-0001-0019
+  - TER-0001-0022
+  termos_contexto: *id003
+  sentinelas_esperadas: []
+- id_consulta: CON-0001-010-PT
+  id_eixo: EIX-0001-004
+  idioma: pt
+  parametro_busca: search
+  texto_consulta: ("código de obras" OR "exigência de estacionamento") AND ("habitação de interesse social" OR "oferta habitacional")
+  filtro_openalex: open_access.is_oa:true,open_access.any_repository_has_fulltext:true
+  limite_ensaio: 25
+  id_familia: FAM-0001-004
+  modalidade: busca_textual_controlada
+  ordenacao: relevancia_padrao
+  situacao: rascunho
+  hash_consulta: d1a103948076edadaf8dff999e12fa9cd931eb852c55eaad6bb3580a833c1f4a
+  termos_eixo:
+  - TER-0001-0020
+  - TER-0001-0023
+  termos_contexto: *id001
+  sentinelas_esperadas: []
+- id_consulta: CON-0001-011-EN
+  id_eixo: EIX-0001-004
+  idioma: en
+  parametro_busca: search
+  texto_consulta: ("building code" OR "parking requirement") AND ("affordable housing" OR "housing supply" OR "social housing")
+  filtro_openalex: open_access.is_oa:true,open_access.any_repository_has_fulltext:true
+  limite_ensaio: 25
+  id_familia: FAM-0001-004
+  modalidade: busca_textual_controlada
+  ordenacao: relevancia_padrao
+  situacao: rascunho
+  hash_consulta: cd030376fcf6f39a2561a4632ef2bec3a2e48cdb79544da570ff507471b847cd
+  termos_eixo:
+  - TER-0001-0021
+  - TER-0001-0024
+  termos_contexto: *id002
+  sentinelas_esperadas: []
+- id_consulta: CON-0001-012-ES
+  id_eixo: EIX-0001-004
+  idioma: es
+  parametro_busca: search
+  texto_consulta: ("código de edificación" OR "requisito de estacionamiento") AND ("oferta de vivienda" OR "vivienda de interés social")
+  filtro_openalex: open_access.is_oa:true,open_access.any_repository_has_fulltext:true
+  limite_ensaio: 25
+  id_familia: FAM-0001-004
+  modalidade: busca_textual_controlada
+  ordenacao: relevancia_padrao
+  situacao: rascunho
+  hash_consulta: a6dc87b4d65d9bb3b260d7fc845662470f16c26c33c0ea79c445bd101e08e6fb
+  termos_eixo:
+  - TER-0001-0022
+  - TER-0001-0025
+  termos_contexto: *id003
+  sentinelas_esperadas: []
+- id_consulta: CON-0001-013-PT
+  id_eixo: EIX-0001-005
+  idioma: pt
+  parametro_busca: search
+  texto_consulta: ("atraso no licenciamento" OR "licenciamento urbanístico") AND ("habitação de interesse social" OR "oferta habitacional")
+  filtro_openalex: open_access.is_oa:true,open_access.any_repository_has_fulltext:true
+  limite_ensaio: 25
+  id_familia: FAM-0001-005
+  modalidade: busca_textual_controlada
+  ordenacao: relevancia_padrao
+  situacao: rascunho
+  hash_consulta: 172960ae02855ab20d21cf2bc87d02fec1c4118b6278e3b43d917475748d6581
+  termos_eixo:
+  - TER-0001-0026
+  - TER-0001-0030
+  termos_contexto: *id001
+  sentinelas_esperadas: []
+- id_consulta: CON-0001-014-EN
+  id_eixo: EIX-0001-005
+  idioma: en
+  parametro_busca: search
+  texto_consulta: ("development approval" OR "permitting delay") AND ("affordable housing" OR "housing supply" OR "social housing")
+  filtro_openalex: open_access.is_oa:true,open_access.any_repository_has_fulltext:true
+  limite_ensaio: 25
+  id_familia: FAM-0001-005
+  modalidade: busca_textual_controlada
+  ordenacao: relevancia_padrao
+  situacao: rascunho
+  hash_consulta: 89cdc4b4c4cab740e10a598eb53a8a2c6fdbc47944afe46e0c4fc89fdd94d977
+  termos_eixo:
+  - TER-0001-0027
+  - TER-0001-0028
+  termos_contexto: *id002
+  sentinelas_esperadas:
+  - REF-0001-001
+  - REF-0001-002
+  - REF-0001-004
+  - REF-0001-006
+- id_consulta: CON-0001-015-ES
+  id_eixo: EIX-0001-005
+  idioma: es
+  parametro_busca: search
+  texto_consulta: '"licencia urbanística" AND ("oferta de vivienda" OR "vivienda de interés social")'
+  filtro_openalex: open_access.is_oa:true,open_access.any_repository_has_fulltext:true
+  limite_ensaio: 25
+  id_familia: FAM-0001-005
+  modalidade: busca_textual_controlada
+  ordenacao: relevancia_padrao
+  situacao: rascunho
+  hash_consulta: 80fe94ca83e6d58fa101a01ae9e74202fcf3ddebb5adde9b36b9ee212359b415
+  termos_eixo:
+  - TER-0001-0029
+  termos_contexto: *id003
+  sentinelas_esperadas: []
+- id_consulta: CON-0001-016-PT
+  id_eixo: EIX-0001-006
+  idioma: pt
+  parametro_busca: search
+  texto_consulta: '"lote mínimo" AND ("habitação de interesse social" OR "oferta habitacional")'
+  filtro_openalex: open_access.is_oa:true,open_access.any_repository_has_fulltext:true
+  limite_ensaio: 25
+  id_familia: FAM-0001-006
+  modalidade: busca_textual_controlada
+  ordenacao: relevancia_padrao
+  situacao: rascunho
+  hash_consulta: d9f8dfdababe268d50b753cad98f920942feb0b9c01937eb04e60a86ebaee919
+  termos_eixo:
+  - TER-0001-0017
+  termos_contexto: *id001
+  sentinelas_esperadas: []
+- id_consulta: CON-0001-017-EN
+  id_eixo: EIX-0001-006
+  idioma: en
+  parametro_busca: search
+  texto_consulta: '"minimum lot size" AND ("affordable housing" OR "housing supply" OR "social housing")'
+  filtro_openalex: open_access.is_oa:true,open_access.any_repository_has_fulltext:true
+  limite_ensaio: 25
+  id_familia: FAM-0001-006
+  modalidade: busca_textual_controlada
+  ordenacao: relevancia_padrao
+  situacao: rascunho
+  hash_consulta: b825897f6e77d64dbc90dc58028981f51ec76f1baceeec137cec749d6e96e1c3
+  termos_eixo:
+  - TER-0001-0018
+  termos_contexto: *id002
+  sentinelas_esperadas: []
+- id_consulta: CON-0001-018-ES
+  id_eixo: EIX-0001-006
+  idioma: es
+  parametro_busca: search
+  texto_consulta: '"tamaño mínimo de lote" AND ("oferta de vivienda" OR "vivienda de interés social")'
+  filtro_openalex: open_access.is_oa:true,open_access.any_repository_has_fulltext:true
+  limite_ensaio: 25
+  id_familia: FAM-0001-006
+  modalidade: busca_textual_controlada
+  ordenacao: relevancia_padrao
+  situacao: rascunho
+  hash_consulta: 29a14d327bee9d3655337ef6b642eaa61ad3336788b2c79883eda0bdf650b529
+  termos_eixo:
+  - TER-0001-0019
+  termos_contexto: *id003
+  sentinelas_esperadas: []
+- id_consulta: CON-0001-019-PT
+  id_eixo: EIX-0001-007
+  idioma: pt
+  parametro_busca: search
+  texto_consulta: ("captura da valorização fundiária" OR zoneamento OR "zoneamento inclusivo") AND ("habitação de interesse social" OR "oferta habitacional")
+  filtro_openalex: open_access.is_oa:true,open_access.any_repository_has_fulltext:true
+  limite_ensaio: 25
+  id_familia: FAM-0001-007
+  modalidade: busca_textual_controlada
+  ordenacao: relevancia_padrao
+  situacao: rascunho
+  hash_consulta: 0199b3bc916424f127b9ea8494915f324781339bc86c4dc92d06e51ba32cd622
+  termos_eixo:
+  - TER-0001-0011
+  - TER-0001-0031
+  - TER-0001-0040
+  termos_contexto: *id001
+  sentinelas_esperadas: []
+- id_consulta: CON-0001-020-EN
+  id_eixo: EIX-0001-007
+  idioma: en
+  parametro_busca: search
+  texto_consulta: ("inclusionary zoning" OR "land value capture" OR zoning) AND ("affordable housing" OR "housing supply" OR "social housing")
+  filtro_openalex: open_access.is_oa:true,open_access.any_repository_has_fulltext:true
+  limite_ensaio: 25
+  id_familia: FAM-0001-007
+  modalidade: busca_textual_controlada
+  ordenacao: relevancia_padrao
+  situacao: rascunho
+  hash_consulta: b7fd2c6425e4d0d1562e1ec0ba47b52df32e1e743ee61c2163b0643278c5e409
+  termos_eixo:
+  - TER-0001-0012
+  - TER-0001-0032
+  - TER-0001-0041
+  termos_contexto: *id002
+  sentinelas_esperadas: []
+- id_consulta: CON-0001-021-ES
+  id_eixo: EIX-0001-007
+  idioma: es
+  parametro_busca: search
+  texto_consulta: ("captura de plusvalías" OR zonificación OR "zonificación inclusiva") AND ("oferta de vivienda" OR "vivienda de interés social")
+  filtro_openalex: open_access.is_oa:true,open_access.any_repository_has_fulltext:true
+  limite_ensaio: 25
+  id_familia: FAM-0001-007
+  modalidade: busca_textual_controlada
+  ordenacao: relevancia_padrao
+  situacao: rascunho
+  hash_consulta: c538425348a16e1e525a793ab740705862d04ed336a1bb7d785975f50b63c905
+  termos_eixo:
+  - TER-0001-0013
+  - TER-0001-0033
+  - TER-0001-0042
+  termos_contexto: *id003
+  sentinelas_esperadas: []
+- id_consulta: CON-0001-022-PT
+  id_eixo: EIX-0001-008
+  idioma: pt
+  parametro_busca: search
+  texto_consulta: '"assentamento informal" AND ("habitação de interesse social" OR "oferta habitacional")'
+  filtro_openalex: open_access.is_oa:true,open_access.any_repository_has_fulltext:true
+  limite_ensaio: 25
+  id_familia: FAM-0001-008
+  modalidade: busca_textual_controlada
+  ordenacao: relevancia_padrao
+  situacao: rascunho
+  hash_consulta: 07b644a391fc20b8261f63794865f4528a131f4ba41dd2c44ec03a148b5e79fc
+  termos_eixo:
+  - TER-0001-0034
+  termos_contexto: *id001
+  sentinelas_esperadas: []
+- id_consulta: CON-0001-023-EN
+  id_eixo: EIX-0001-008
+  idioma: en
+  parametro_busca: search
+  texto_consulta: '"informal settlement" AND ("affordable housing" OR "housing supply" OR "social housing")'
+  filtro_openalex: open_access.is_oa:true,open_access.any_repository_has_fulltext:true
+  limite_ensaio: 25
+  id_familia: FAM-0001-008
+  modalidade: busca_textual_controlada
+  ordenacao: relevancia_padrao
+  situacao: rascunho
+  hash_consulta: edf1383a5f3eb9f857f3b97eff1d54514b1f8087fafb149aeb70bbb5c9914734
+  termos_eixo:
+  - TER-0001-0035
+  termos_contexto: *id002
+  sentinelas_esperadas: []
+- id_consulta: CON-0001-024-ES
+  id_eixo: EIX-0001-008
+  idioma: es
+  parametro_busca: search
+  texto_consulta: '"asentamiento informal" AND ("oferta de vivienda" OR "vivienda de interés social")'
+  filtro_openalex: open_access.is_oa:true,open_access.any_repository_has_fulltext:true
+  limite_ensaio: 25
+  id_familia: FAM-0001-008
+  modalidade: busca_textual_controlada
+  ordenacao: relevancia_padrao
+  situacao: rascunho
+  hash_consulta: 819aa279ebabd70391551c31c1390d6063028e1e135cbe3a57f92031150dff1f
+  termos_eixo:
+  - TER-0001-0036
+  termos_contexto: *id003
+  sentinelas_esperadas: []
+- id_consulta: CON-0001-025-PT
+  id_eixo: EIX-0001-009
+  idioma: pt
+  parametro_busca: search
+  texto_consulta: '"custo moradia transporte" AND ("habitação de interesse social" OR "oferta habitacional")'
+  filtro_openalex: open_access.is_oa:true,open_access.any_repository_has_fulltext:true
+  limite_ensaio: 25
+  id_familia: FAM-0001-009
+  modalidade: busca_textual_controlada
+  ordenacao: relevancia_padrao
+  situacao: rascunho
+  hash_consulta: fae3c4549e72bb4a9499b5f7eacaac4096ebdde5bfdde1d6f41d6697508a9a50
+  termos_eixo:
+  - TER-0001-0037
+  termos_contexto: *id001
+  sentinelas_esperadas: []
+- id_consulta: CON-0001-026-EN
+  id_eixo: EIX-0001-009
+  idioma: en
+  parametro_busca: search
+  texto_consulta: '"housing and transportation cost" AND ("affordable housing" OR "housing supply" OR "social housing")'
+  filtro_openalex: open_access.is_oa:true,open_access.any_repository_has_fulltext:true
+  limite_ensaio: 25
+  id_familia: FAM-0001-009
+  modalidade: busca_textual_controlada
+  ordenacao: relevancia_padrao
+  situacao: rascunho
+  hash_consulta: 56d4bbd0788f188070aee4cd121c6418703cdf89a52b742b6ec85702112470eb
+  termos_eixo:
+  - TER-0001-0038
+  termos_contexto: *id002
+  sentinelas_esperadas: []
+- id_consulta: CON-0001-027-ES
+  id_eixo: EIX-0001-009
+  idioma: es
+  parametro_busca: search
+  texto_consulta: '"costo de vivienda y transporte" AND ("oferta de vivienda" OR "vivienda de interés social")'
+  filtro_openalex: open_access.is_oa:true,open_access.any_repository_has_fulltext:true
+  limite_ensaio: 25
+  id_familia: FAM-0001-009
+  modalidade: busca_textual_controlada
+  ordenacao: relevancia_padrao
+  situacao: rascunho
+  hash_consulta: 508091edaa3e872ca0a0c036ac494212c96b013444d3e368f31b249dee902408
+  termos_eixo:
+  - TER-0001-0039
+  termos_contexto: *id003
+  sentinelas_esperadas: []
+- id_consulta: CON-0001-028-PT
+  id_eixo: EIX-0001-013
+  idioma: pt
+  parametro_busca: search
+  texto_consulta: ("captura da valorização fundiária" OR "regulação urbanística") AND ("habitação de interesse social" OR "oferta habitacional")
+  filtro_openalex: open_access.is_oa:true,open_access.any_repository_has_fulltext:true
+  limite_ensaio: 25
+  id_familia: FAM-0001-010
+  modalidade: busca_textual_controlada
+  ordenacao: relevancia_padrao
+  situacao: rascunho
+  hash_consulta: 30cd9e9bb86e6cb96156ec05501b4d668a07d1e7de340a7ee22c278933f30a31
+  termos_eixo:
+  - TER-0001-0001
+  - TER-0001-0040
+  termos_contexto: *id001
+  sentinelas_esperadas:
+  - REF-0001-005
+- id_consulta: CON-0001-029-EN
+  id_eixo: EIX-0001-013
+  idioma: en
+  parametro_busca: search
+  texto_consulta: ("land use regulation" OR "land value capture") AND ("affordable housing" OR "housing supply" OR "social housing")
+  filtro_openalex: open_access.is_oa:true,open_access.any_repository_has_fulltext:true
+  limite_ensaio: 25
+  id_familia: FAM-0001-010
+  modalidade: busca_textual_controlada
+  ordenacao: relevancia_padrao
+  situacao: rascunho
+  hash_consulta: 984afa1c18e14bb5d04ecc576b05f14a3b520decdd5eda0edfc125f3bdfa0606
+  termos_eixo:
+  - TER-0001-0002
+  - TER-0001-0041
+  termos_contexto: *id002
+  sentinelas_esperadas:
+  - REF-0001-006
+- id_consulta: CON-0001-030-ES
+  id_eixo: EIX-0001-013
+  idioma: es
+  parametro_busca: search
+  texto_consulta: ("captura de plusvalías" OR "regulación del uso del suelo") AND ("oferta de vivienda" OR "vivienda de interés social")
+  filtro_openalex: open_access.is_oa:true,open_access.any_repository_has_fulltext:true
+  limite_ensaio: 25
+  id_familia: FAM-0001-010
+  modalidade: busca_textual_controlada
+  ordenacao: relevancia_padrao
+  situacao: rascunho
+  hash_consulta: cebcdd88c6384e8cd87bade0af9a63c33856db0242454c81ea31668c7300a5f4
+  termos_eixo:
+  - TER-0001-0003
+  - TER-0001-0042
+  termos_contexto: *id003
+  sentinelas_esperadas: []
